@@ -2,28 +2,43 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>UFO Finder</title>
+    <meta charset="utf-8">
+  <title>I WANT TO BELIEVE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="static/css/style.css">
+  <link rel="icon" href="static/images/favicon.png">
 </head>
 
 <body>
+
+  <div class="background-container">
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="">
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="clouds"></div>
+          <h1>Why we might not be alone in the universe?</h1>
+      <a href="index.html" class="btn btn-ghost">EXPLORE</a>
+    </div>
+</div>
+
+
   <div class="wrapper">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">UFO Sightings
+          <a class="navbar-brand" href="https://nextslim.github.io/RenzOnly/">  ▌ I WANT TO BELIEVE
             <img class="nav-ufo" src="static/images/ufo.svg">
           </a>
         </div>
       </div>
+
     </nav>
-    <div class="hero text-center" style="color: rgb(39, 39, 39);">
-      <h1>UFO Sightings</h1>
-      <p>The Truth is Out There</p>
+    <div class="hero text-center" style="color: rgb(247, 245, 245);">
+      <h1>Why we might not be alone in the universe?</h1>
+      <p>Ever wonder where is all of the data relating to UFO sightings are stored?</p>
+      <p></p> Worry no further, the data is here!</p>
     </div>
     <div class="container">
       <div class="row margin-top-50">
@@ -37,7 +52,15 @@
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
                         <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2010">
+                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <label for="city">Enter a City</label>
+                        <input class="form-control" id="city" type="text" placeholder="Las Vegas">
+                        <label for="state">Enter a State</label> -->
+                        <input class="form-control" id="state" type="text" placeholder="NV"> -->
+                        <label for="country">Enter a Country</label> -->
+                        <input class="form-control" id="country" type="text" placeholder="US"> -->
+                        <label for="shape">Enter a Shape</label> -->
+                        <input class="form-control" id="shape" type="text" placeholder="Circle, Triangle, etc."> -->
                       </li>
                     </ul>
                   </div>
@@ -47,10 +70,11 @@
             </div>
           </aside>
         </div>
+        
         <div class="col-md-10">
           <div id="table-area" class="">
             <table id="ufo-table" class="table table-striped">
-              <thead style="color: white; background-color: rgb(6, 6, 36);">
+              <thead>
                 <tr>
                   <th class="table-head">Date</th>
                   <th class="table-head">City</th>
@@ -67,8 +91,18 @@
         </div>
       </div>
     </div>
+
     <footer class="footer">
-      <span class="bottom">UFO Sightings</span>
+      <br>
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>RenzOnly</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+                 Designed by <a href="https://github.com/NEXTSLIM/">NEXTSLIM</a>
+        </div>
+      </div>
+      <span class="bottom">UFOs, They Exist!</span> 
     </footer>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
